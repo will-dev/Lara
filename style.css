@@ -62,7 +62,7 @@ a li:active{
 }
 
 #title{
-    font: normal 7.5em "Whisper", cursive;
+    font: normal 7em "Whisper", cursive;
     text-align: center;
     text-shadow: 2px 2px 2px black;
 }
@@ -130,11 +130,11 @@ button{
 }
 
 .left{
-    padding: 0px 15px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 .right{
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 10px;
 }
 
 .heartLine{
