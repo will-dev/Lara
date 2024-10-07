@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te adoro!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Heartfavicon.ico" type="image/x-icon">
+    <script>
+        function show() {
+            const text = document.getElementById('textBox');
+            if(text.value == "quero você" || text.value == "quero voce" || text.value == "te quero" || text.value == "voce" || text.value == "você" || text.value == "ficar com você" || text.value == "ficar com voce" || text.value == "ficar contigo")
+            {
+                alert("Te quero mais!");
+            }
+            if(text.value == "te adoro" || text.value == "Te adoro")
+            {
+                alert("Te adoro mais!");
+            }
+            if(text.value == "te amo" || text.value == "Te amo" || text.value == "eu te amo" || text.value == "Eu te amo")
+            {
+                alert("Eu também te amo!")
+            }
+            if(text.value == "chata" || text.value == "Chata" || text.value == "Chato" || text.value == "chato")
+            {
+                alert("Você pode ser chata, mas é a minha chata :)")
+            }
+
+            if(text.value == "chato" || text.value == "Chato")
+            {
+                alert("Vou sempre te querer minha chata")
+            }
+
+            if(text.value == "" || text.value == " ")
+            {
+                alert("Você não tem nenhum pedido? :(")
+            }
+            if(text.value == "obrigada" || text.value == "obg")
+            {
+                alert("Por nada! Você merece muito mais, merece o mundo")
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <section id="balloons">
+            <picture>
+                <source media="(max-width: 1000px)" srcset="images/BalloonsTopM.png" type="image/png">
+                <img src="images/BalloonsTop.png" alt="ballons">
+            </picture>
+        </section>
+        <h1 id="title">Feliz aniversário</h1>
+        <nav>
+            <ul type="disc">
+                <a href="#"><li>Inicio</li></a>
+                <a href="memorial.html"><li>Memorial</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="balloonLine">
+            <picture class="left">
+                <source media="(max-width: 750px)" srcset="images/balloonLeftP.jpg" type="image/jpg">
+                <img src="images/balloonLeftG.jpg" alt="balloon" class="left">
+            </picture>
+            <picture class="right">
+                <source media="(max-width: 750px)" srcset="images/balloonRightP.jpg" type="image/jpg">
+                <img src="images/balloonRightG.jpg" alt="balloon" class="right">
+            </picture>
+        </aside>
+        <section id="wish">
+            <img src="images/CakeBalloon.png" alt="bolo" class="cake">
+            <br>
+            <p>Faça aqui seu pedido:</p>
+            <div>
+                <textarea name="wishBox" id="textBox" rows="1" cols="100"></textarea>
+            </div>
+            <button onclick="show()">Assoprar</button>
+            <aside class="heartLine">
+                <picture class="left">
+                    <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                    <img src="images/heartG.jpg" alt="heart">
+                </picture>
+                <picture>
+                    <source media="(max-width: 1050px)" srcset="images/heartLineM.png" type="image/png">
+                    <img src="images/heartLineG.png" alt="line">
+                </picture>
+                <picture class="right">
+                    <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                    <img src="images/heartG.jpg" alt="heart">
+                </picture>
+            </aside>
+        </section>
+        <hr>
+        <aside class="balloonLine">
+            <picture class="left">
+                <source media="(max-width: 750px)" srcset="images/balloonLeftP.jpg" type="image/jpg">
+                <img src="images/balloonLeftG.jpg" alt="balloon" class="left">
+            </picture>
+            <picture class="right">
+                <source media="(max-width: 750px)" srcset="images/balloonRightP.jpg" type="image/jpg">
+                <img src="images/balloonRightG.jpg" alt="balloon" class="right">
+            </picture>
+        </aside>
+        <section id="message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim iure modi quia, non fuga. Minima, dolorum repudiandae soluta, blanditiis in possimus labore fuga earum illo ut, odio quidem. A!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit rem non quae asperiores? Magnam perferendis ea fugit atque minima molestias maiores laborum sapiente quaerat fugiat deleniti, adipisci ullam consectetur.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem nihil autem! Reiciendis dicta modi nostrum perferendis? Quis inventore iste, laborum enim minima porro laboriosam, qui tempora necessitatibus rerum perspiciatis!
+            </p>
+        </section>
+        <aside class="heartLine">
+            <picture class="left">
+                <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                <img src="images/heartG.jpg" alt="heart">
+            </picture>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="images/heartLineM.png" type="image/png">
+                <img src="images/heartLineG.png" alt="line">
+            </picture>
+            <picture class="right">
+                <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                <img src="images/heartG.jpg" alt="heart">
+            </picture>
+        </aside>
+        <hr>
+        <aside class="balloonLine">
+            <picture class="left">
+                <source media="(max-width: 750px)" srcset="images/balloonLeftP.jpg" type="image/jpg">
+                <source media="(max-width: 1050px)" srcset="images/balloonLeftM.jpg" type="image/jpg">
+                <img src="images/balloonLeftG.jpg" alt="balloon" class="left">
+            </picture>
+            <picture class="right">
+                <source media="(max-width: 750px)" srcset="images/balloonRightP.jpg" type="image/jpg">
+                <source media="(max-width: 1050px)" srcset="images/balloonRightM.jpg" type="image/jpg">
+                <img src="images/balloonRightG.jpg" alt="balloon" class="right">
+            </picture>
+        </aside>
+        <section id="letter">
+            <aside>
+                <p>Hoje é um dia importante, o dia no qual uma pessoa maravilhosa veio ao mundo. Já que hoje é seu dia, resolvi te mimar um pouquinho e fazer algo que fosse equivalente a como você é para mim, especial. Foi um prazer enorme planejar e montar esse presentinho, valeu cada esforço, principalmente se for capaz de tirar um sorriso seu.
+                <br>
+                Você sabe que eu sou meio antiquado, então já quis te escrever uma carta antes apesar de não ter essa possibilidade. Resolvi transformar essa vontade que tive há muito tempo em realidade escrevendo essa carta online, que não é muito diferente de uma mensagem, mas finge que é. Só queria fazer algo memorável para ti.
+                <br>
+                Apenas clique no desenho de envelope para abrir a cartinha.</p>
+            </aside>
+            <aside>
+                <a href="letter.html" target="_self" rel="next"><img src="images/74tpIkbEsTNEf.jpg!w700wp" alt="Letter"></a>
+            </aside>
+        </section>
+        <hr>
+        <section id="finale">
+            <h2>Mensagem Final</h2>
+            <p>Confesso que desde comecei a fazer esse presentinho fiquei muito ansioso para te mandar logo. Talvez eu não seja a melhor pessoa para guardar coisas de você.
+            <br>
+            Espero que tenha conseguido pelo menos tirar um sorrisinho seu, isso me deixaria muito feliz.
+            <br>
+            Queria dizer que esses anos com você na minha vida não poderiam ter sido melhores, cada momento contigo foi muito bom e espero ter muitos mais, tendo novas experiências e principalmente estando ao seu lado.
+            <br>
+            E lembre-se: Dentre qualquer outra pessoa no mundo, eu escolho a ti e assim sempre será. É você que eu quero!
+            <br>
+            Te adoro!
+            </p>
+        </section>
+        <aside class="heartLine">
+            <picture class="left">
+                <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                <img src="images/heartG.jpg" alt="heart">
+            </picture>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="images/heartLineM.png" type="image/png">
+                <img src="images/heartLineG.png" alt="line">
+            </picture>
+            <picture class="right">
+                <source media="(max-width: 750px)" srcset="images/heartM.jpg" type="image/jpg">
+                <img src="images/heartG.jpg" alt="heart">
+            </picture>
+        </aside>
+    </main>
+    <footer>
+        <p>Um pequeno agrado dedicado a uma pessoa muito especial para mim sz</p>
+    </footer>
+</body>
+</html>

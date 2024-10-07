@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap');
+
+body{
+    margin: 0px;
+    font: bold 1em "Dancing Script", cursive;
+    background-image: linear-gradient(to bottom, #ee6edf51, #e864d9, #522B72, #1D1858);
+}
+
+header{
+    background-image: linear-gradient(to right, #e864d9, 1%, #522B72, 98.8%, #e864d9);
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+h1{
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    color: black;
+    border: 1px solid #f3a2ada9;
+    background-color: #f3a2ada9;
+    font-size: 1.5em;
+    padding: 0px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a li{
+    display: inline-block;
+    background-color: #F3A2AD;
+    border: 1px solid white;
+    padding: 1px 10px;
+    width: 100px;
+    color: black;
+}
+
+a li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #F3A2AD;
+    background-color: #A23645;
+}
+
+a li:active{
+    color: white;
+}
+
+#balloons{
+    text-align: center;
+    height: 150px;
+}
+
+#title{
+    font: normal 8em "Whisper", cursive;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+main{
+    min-width: 50%;
+    max-width: 90%;
+    padding: 0px 50px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    line-height: 3.5em;
+}
+
+#wish{
+    font-size: 2em;
+    text-align: center;
+}
+
+.cake{
+    width: 90%
+}
+
+#textBox{
+    margin: 20px auto;
+    width: 300px;
+    height: 33px;
+    background-color: #f3a2ad63;
+    border: 3px solid #f3a2ad;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    resize: none;
+}
+
+picture{
+    width: auto;
+}
+
+button{
+    width: auto;
+    font: normal 1em 'Dancing script', cursive;
+    background-color: #F3A2AD;
+    border: 3px solid #e28f8f;
+    margin-bottom: 20px;
+}
+
+#wish > p{
+    margin: 0px;
+    display: inline;
+    text-align: top;
+}
+
+#message{
+    text-align: center;
+    font-size: 2em;
+}
+
+.balloonLine{
+    text-align: center;
+}
+
+.balloonLine > picture > img{
+    display: inline;
+}
+
+.left{
+    padding: 0px 20px 0px 0px;
+}
+
+.right{
+    padding: 0px 0px 0px 20px;
+}
+
+.heartLine{
+    text-align: center;
+}
+
+#letter{
+    text-align: center;
+    font-size: 2em;
+}
+
+#letter img{
+    width: 100%;
+}
+
+#finale{
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+footer{
+    background-color: #7F7BB0;
+    width: 96.8%;
+    height: auto;
+    border: 5px solid #1D1858;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer > p{
+    margin: 0px;
+    padding: 10px 0px;
+    color: #1D1858;
+}

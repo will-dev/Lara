@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembranças</title>
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/Giftfavicon.ico" type="image/x-icon">
+    <style>
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap');
+
+        body{
+            margin: 0px;
+            font: bold 1em Arial, cursive;
+            background-image: linear-gradient(to bottom, #ee6edf51, #e864d9, #522B72);
+        }
+
+        header{
+            background-image: linear-gradient(to right, #e864d9, 1%, #522B72, 98.8%, #e864d9);
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+
+        #balloon{
+            height: 300px;
+        }
+
+        h1{
+            margin: 0px;
+        }
+
+        nav{
+            text-align: center;
+            color: black;
+            border: 1px solid #f3a2ada9;
+            background-color: #f3a2ada9;
+            font-size: 1.5em;
+            padding: 0px;
+        }
+
+        ul{
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        a li{
+            display: inline-block;
+            background-color: #F3A2AD;
+            border: 1px solid white;
+            padding: 1px 10px;
+            width: 100px;
+            color: black;
+            font-family: 'Dancing script', Arial, Helvetica, sans-serif;
+        }
+
+        a li:hover{
+            text-decoration: underline;
+            font-weight: bold;
+            color: #F3A2AD;
+            background-color: #A23645;
+        }
+
+        a li:active{
+            color: white;
+        }
+
+        #balloons{
+            text-align: center;
+            height: 150px;
+        }
+
+        #title{
+            font: normal 8em "Whisper", cursive;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        main{
+            min-width: 320px;
+            max-width: 80%;
+            padding: 15px;
+            margin: auto;
+            text-align: center;
+            min-height: 405px;
+        }
+
+        section{
+            text-align: center;
+        } 
+
+        main ul{
+            margin-top: 30px;
+        }
+
+        #memory img{
+            background-color: white;
+            max-width: 90%;
+            min-height: 120px;
+            border: 10px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #memory p{
+            margin: 10px auto;
+            min-width: 320px;
+            max-width: 500px;
+            font-size: 1.5em;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        #changeLeft{
+            margin-right: 50px;
+            width: 150px;
+        }
+
+        #changeRight{
+            margin-left: 50px;
+            width: 150px;
+        }
+
+        .popup{
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup img{
+            height: 90%;
+        }
+
+        .close{
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 30px;
+        }
+
+        footer{
+            height: 5px;
+            width: 100%;
+            background-color: #522B72;
+        }
+    </style>
+</head>
+<body onload="checkWidth()">
+    <header>
+        <section id="balloons">
+            <picture>
+                <source media="(max-width: 1000px)" srcset="images/BalloonsTopM.png" type="image/png">
+                <img src="images/BalloonsTop.png" alt="ballons">
+            </picture>
+        </section>
+        <h1 id="title">Memorial</h1>
+        <nav>
+            <ul type="disc">
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="#"><li>Memorial</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="memory">
+            <ul type="none" id="col">
+                <li><img id="memoryImage" onclick="openPopup()" src="" alt="memoria"></li>
+                <li><p id="txt"></p></li>
+            </ul>
+        </section>
+    </main>
+    <section>
+        <img src="images/Arrow.png" alt="arrow" id="changeLeft" style="cursor:pointer;">
+        <img src="images/ArrowR.png" alt="arrow" id="changeRight" style="cursor:pointer;">
+    </section>
+    <div id="Popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img id="imagePopup" src="" alt="memory fullscreen">
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
