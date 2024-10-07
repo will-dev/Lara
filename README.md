@@ -1,2 +1,3 @@
 # Lara
- Um projeto feito para uma garota especial como presente
+ Um projeto feito para uma garota especial como presente.
+ Saudades...
