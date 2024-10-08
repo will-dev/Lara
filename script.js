@@ -39,7 +39,7 @@ const image33 = 'memories/image33.png';
 const image34 = 'memories/image34.png';
 const image35 = 'memories/image35.png';
 const image36 = 'memories/image36.png';
-const text0 = "Para começar, uma doce memória de nossas aventuras.\nLembro muito bem como se fosse ontem. Cada vez que nos perdemos e rolos que entramos... Muito bom kk.\nEspero que possamos ter essa oportunidade novamente.";
+const text0 = "Para começar, uma doce memória de nossas aventuras.\nLembro muito bem como se fosse ontem, cada vez que nos perdemos e rolos que entramos... Muito bom kk.\nEspero que possamos ter essa oportunidade novamente.";
 const text1 = "O primeiro jogo que zeramos juntos, primeiro de muitos que ainda vamos zerar.\nAinda vamos fazer a speedrun, né? Não precisa ser tão cedo, podemos fazer quando estivermos juntinhos (:";
 const text2 = "Essa não poderia faltar kk.\nÉ sempre uma honra ter você em minha vida. A única razão para eu ser feliz hoje é porque tenho a melhor amiga que eu poderia ter, é porque tenho você.";
 const text3 = "Foi por aqui que começamos a nos abrir, não é mesmo? Ainda bem que começamos a nos abrir. Mesmo estando distantes e tendo que sofrer um poquinho, ainda acho que foi bem melhor assim.\nEspero ansiosamente por quando formos recomeçar isso porém pessoalmente. Poder dizer tudo que já disse e mais um pouco olhando nos seus olhos...";
@@ -61,14 +61,14 @@ const text18 = "Bom, também existem os momentos em que ambos somos safados kk.\
 const text19 = "Falando em estarmos na cama, esse não é muito, mas só de ter visto ele já foi capaz de me tirar um sorriso. \nAgora, se um desenho de palitinhos já é capaz de me fazer sorrir, imagina estarmos assim de verdade. (:";
 const text20 = "Poucos dias de amizade e já diziamos essas coisas... Quem bom que sempre nos demos bem assim.";
 const text21 = "Eu sei que eu estava de castigo nesse dia, mas esse castigo já foi muito longe, não? Até hoje eu tenho curiosidade para saber do que você estava falando kk.";
-const text22 = "Pode se abrir sim, sou só eu (: Mas se preferir esperar para que nos encontremos pessoalmente para se abrir, então está tudo bem também\nEsperarei ansiosamente por esse dia.";
+const text22 = "Pode se abrir sim, sou só eu (: Mas se preferir esperar para que nos encontremos pessoalmente para se abrir, então está tudo bem também.\nEsperarei ansiosamente por esse dia.";
 const text23 = "Ah, esse dia... Eu realmente não pude acreditar naquilo. Todos aqueles dias que não conversamos seu nome me aparecia em algum lugar ou apareciam coisas que me lembravam de você e sentia vontade de te chamar para voltarmos a conversar, mas achei que você já não queria.\nLembro que uma das coisas que me fizeram lembrar de você foi olhar para o céu e ter visto uma nuvem em formato de coração kk. sz";
 const text24 = "Um dia inesquecível kk Nem precisaria estar no memorial.\n Pior que eu sabia que iria me arrepender enquanto ainda estava escrevendo, mas queria fazer um pouquinho de graça kk.";
 const text25 = "O momento em que se originou @Fofinha e @Fofinho.\nAinda bem que encontramos essa conversa e começamos isso kk (:";
 const text26 = "Ainda acho muito intrigante meu único medo ser te perder. Tinha ficado muito cabisbaixo só de pensar na possibilidade.";
 const text27 = "Mas eu não sou o único a sentir fio na barriga. Pelo menos o seu não foi de medo kk.\nLer essa conversa me deixou com muita vontade de estar contigo agora, mas no momento que estou escrevendo isso você deve estar dormindo.";
 const text28 = "Ah, esse dia eu fiquei com muita vergonha de dizer, mas eu queria muito confessar o que eu queria e o que estava pensando. A verdade é que eu queria dizer que preferia os dois escolhendo você nas duas opções. Por isso eu disse 'ah depende' e 'seria bom se tivesse como n escolher'.\nAcho que ainda estava meio cedo para eu confessar que namoraria você... \nTalvez ainda esteja cedo e eu to falando... kkk";
-const text29 = "Esse dia é o único dia que lembro de estar irritado de verdade.\nNão se deveria estar mostrando algo negativo assim, mas é que eu queria te dizer que não quero te perder, muito pelo contrário, te quero para sempre ao meu lado.";
+const text29 = "Esse dia é o único dia que lembro de estar irritado de verdade.\nNão sei se deveria estar mostrando algo negativo assim, mas é que eu queria te dizer que não quero te perder, muito pelo contrário, te quero para sempre ao meu lado.";
 const text30 = "Uma mensagenzinha mais confortante para te lembrar que desejo a ti do jeitinho que é. Irei gostar de você independentemente de como você for. Você é a única para mim.";
 const text31 = "Eu também não acreditei que havia enviado na hora kk. \nMesmo tendo gastado toda minha sorte, ainda me sinto o homem mais sortudo do mundo por ter encontrado você, uma pessoa tão preciosa para mim. Preciosa o bastante para não haver nada no universo pelo qual a trocaria.";
 const text32 = "kk Espero que você não tenha esquecido dessa reação, já que ficou relembrando dela por tanto tempo. \nEu fiquei realmente bobo ao ler sobre o que você sentia...";
@@ -400,7 +400,7 @@ changeL.onclick = function()
     if(id == 25)
     {
         memory.src = image25;
-        text.value = text25;
+        text.innerText = text25;
     }
     if(id == 26)
     {
